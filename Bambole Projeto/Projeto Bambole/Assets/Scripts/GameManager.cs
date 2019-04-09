@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour {
 
     public void Placar(string status)
     {
-        if(status == "Acertou")
+        if(status == "a")
         {
             pontuacao++;
             textoPontos.text = pontuacao.ToString();

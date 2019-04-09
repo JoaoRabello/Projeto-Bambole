@@ -14,12 +14,12 @@ public class Botao : MonoBehaviour {
         {
             if (temNota)
             {
-                gm.Placar("Acertou");
+                gm.Placar("a"); //Acertou
                 Destroy(nota);
             }
             else
             {
-                gm.Placar("Errou");
+                gm.Placar("e");
             }
         }
 	}
